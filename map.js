@@ -20,7 +20,7 @@ doubled; /* =>[2, 4, 6] */
 
 
 // 例）配列carのpriceだけ抜き出したい。
-var car = [
+var cars = [
   {type: '中古車', price: '安い'},
   {type: '新車', price: '高い'}
 ];
