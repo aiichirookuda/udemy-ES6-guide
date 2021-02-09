@@ -1,7 +1,7 @@
 var colors = ['red', 'blue', 'green'];
 
 // forループ文は読みにくいし、書きづらい。
-far(var i = 0; i < colors.length; i++) {
+for(var i = 0; i < colors.length; i++) {
   console.log(colors[i]);
 }
 
@@ -46,8 +46,8 @@ var images = [
 
 var areas = [];
 
-images.forEach(function(image){
-   areas.push(image.height * image.width);
+images.forEach(function (image) {
+  areas.push(image.height * image.width);
 });
 
 console.log(areas); /* => [300, 1800, 1728] */
